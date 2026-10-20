@@ -1,0 +1,22 @@
+{
+  "ffmpeg-7.1.tar.xz": {
+    "url": "https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz",
+    "sha256": "40973d44970dbc83ef302b0609f2e74982be2d85916dd2ee7472d30678a7abe6",
+    "size": 11011364
+  },
+  "x264-31e19f92.tar.gz": {
+    "url": "https://codeload.github.com/mirror/x264/tar.gz/31e19f92f00c7003fa115047ce50978bc98c3a0d",
+    "sha256": "d053c9d86988d6bc78237ca5205865c5ddf99c98ef4cd9927eec8f6d388f6dd9",
+    "size": 943381
+  },
+  "lame-3.100.tar.gz": {
+    "url": "https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz",
+    "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+    "size": 1524133
+  },
+  "pkg-config-0.29.2.tar.gz": {
+    "url": "https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz",
+    "sha256": "6fc69c01688c9458a57eb9a1664c9aba372ccda420a02bf4429fe610e7e7d591",
+    "size": 2016830
+  }
+}
