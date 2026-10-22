@@ -1,13 +1,16 @@
-# 视频拆解工厂下载
+# 视频拆解工厂 · 开整
 
-适用于 Apple M 系列芯片、macOS 14.2 及以上。
+Apple Silicon / macOS 14.2+ 的本地视频模板工作台。
 
-本仓库仅用于应用与组件分发。应用源码在独立私有仓库维护；不会公开用户 Cookie、API 密钥、任务或视频。
+## V2.0 下载验收
 
-应用和九个组件放在 [Releases](https://github.com/ddengzc/video-disassembly-factory-downloads/releases)，不需要 GitHub 登录即可下载。下载器核对固定 SHA-256 和完整文件清单后安装；更新不会上传用户资料。
+- [下载开整 V2.0](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v2.0.0)
+- [固定运行组件与模型](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/components-v2.0.0)
 
-第三方工具及模型保留各自许可证，参见 [第三方声明](THIRD_PARTY.md) 及组件包内的许可证。FFmpeg 为独立 GPL-2.0-or-later 程序；本仓库同时提供对应源码、固定依赖与构建脚本。构建脚本位于 build/；应用的许可不由第三方组件许可证替代。
+V2.0 先按预发布提供下载与实际使用验收。原应用、旧标签和旧组件保留，等用户确认 V2.0 下载、打开和实际处理正常后再处理旧版本；仍被保留版本引用的组件不删除。
 
-目前仍在准备首个公开预发布，未发布的附件地址不可用。预发布需要完成本机安装与公开回下载验收后才会调整发布状态。
+解压后打开“开整.app”。已有用户会复用原工作目录、组件与任务资料；首次使用需在设置中安装固定组件（约 2.2 GB），程序按 SHA-256 和逐文件清单校验。保留旧应用可用于回退，不删除工作目录。
 
-应用文件名称：**开整.app**。项目名称：**视频拆解工厂**。
+本版本整合语义文案编辑、素材分类与动态预览、侧边播放器、工作区独立取消、并行生成和口播歌词分流。源码和自动化检查记录保存在项目维护仓库，下载包不包含用户任务、Cookie 或 API 密钥。
+
+本地 ad-hoc 签名，未做 Developer ID 公证。新 Mac 首次启动可能需要通过 macOS 的正常允许流程；用户仍需验收真实视频处理和外部后台导入。问题反馈请附操作步骤及脱敏截图，不上传凭据或私有视频。

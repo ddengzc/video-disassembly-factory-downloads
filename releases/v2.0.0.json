@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "application": "开整.app",
+  "source_repository": "ddengzc/video-disassembly-factory",
+  "source_commit": "5076e3fbaf3fe6dec78739bce44933174bfe9e3c",
+  "source_pr": "https://github.com/ddengzc/video-disassembly-factory/pull/3",
+  "application_archive": "kaizheng-mac-arm64-2.0.0.zip",
+  "application_sha256": "4aca6b58bf44ea448d253f6e7dbabb15e82bcb3042a484b465918ca8cf9927bb",
+  "components_tag": "components-v2.0.0",
+  "status": "pre-release_user_acceptance_pending",
+  "preserve_previous_versions": true
+}
