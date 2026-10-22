@@ -7,10 +7,11 @@
   "application_archive": "kaizheng-mac-arm64-2.0.0.zip",
   "application_sha256": "4aca6b58bf44ea448d253f6e7dbabb15e82bcb3042a484b465918ca8cf9927bb",
   "components_tag": "components-v2.0.0",
-  "status": "draft_user_acceptance_pending",
+  "status": "pre-release_user_acceptance_pending",
   "preserve_previous_versions": true,
   "component_lock": "releases/components-baseline-2.0.0.json",
   "component_versioning": "independent",
   "user_acceptance": "pending",
-  "deletion_approved": false
+  "deletion_approved": false,
+  "validation": "releases/validation-v2.0.0.json"
 }

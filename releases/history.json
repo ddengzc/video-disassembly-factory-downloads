@@ -12,14 +12,16 @@
     {
       "version": "2.0.0",
       "manifest": "releases/v2.0.0.json",
-      "lifecycle": "draft",
+      "lifecycle": "prerelease",
       "user_acceptance": {
         "status": "pending",
         "confirmed_by": null,
         "confirmed_at": null
       },
       "rollback": "previous installed application; preserve legacy workspace",
-      "delete_approved": false
+      "delete_approved": false,
+      "release_url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v2.0.0",
+      "validation": "releases/validation-v2.0.0.json"
     }
   ],
   "legacy": {
