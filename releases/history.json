@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-10-22",
+  "deletion_policy": {
+    "automatic_deletion": false,
+    "user_acceptance_required": true,
+    "minimum_stable_versions_to_keep": 2,
+    "preserve_all_referenced_components": true,
+    "specific_deletion_list_approval_required": true
+  },
+  "applications": [
+    {
+      "version": "2.0.0",
+      "manifest": "releases/v2.0.0.json",
+      "lifecycle": "draft",
+      "user_acceptance": {
+        "status": "pending",
+        "confirmed_by": null,
+        "confirmed_at": null
+      },
+      "rollback": "previous installed application; preserve legacy workspace",
+      "delete_approved": false
+    }
+  ],
+  "legacy": {
+    "preserve_existing_releases_tags_and_local_applications": true,
+    "public_components_v0_1_13": "empty draft; not a usable download baseline",
+    "private_release_history": "preserved in source repository"
+  },
+  "approved_deletions": []
+}

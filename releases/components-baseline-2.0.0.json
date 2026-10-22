@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "baseline_id": "components-v2.0.0",
+  "architecture": "arm64",
+  "minimum_macos": "14.2",
+  "python": "3.12.14",
+  "runtime_layout": 2,
+  "immutable": true,
+  "versioning": "component versions are independent of application versions",
+  "packages": {
+    "f2": {
+      "version": "2.0.0",
+      "filename": "kaizheng-f2-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-f2-arm64-2.0.0.tar.gz",
+      "size": 17018451,
+      "sha256": "19510a703e3395668e9481e309500a68e25553b6aab29f0dad860f3e393c956d",
+      "target": "runtime/architectures/arm64/f2"
+    },
+    "processing": {
+      "version": "2.0.0",
+      "filename": "kaizheng-processing-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-processing-arm64-2.0.0.tar.gz",
+      "size": 288749269,
+      "sha256": "59e05612107e6e682a065bfe1311a763f599e89d5001672250faf9f85d1081c2",
+      "target": "runtime/architectures/arm64/processing"
+    },
+    "ffmpeg": {
+      "version": "2.0.0",
+      "filename": "kaizheng-ffmpeg-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-ffmpeg-arm64-2.0.0.tar.gz",
+      "size": 10186343,
+      "sha256": "49bc7f71c05dc8145ec0607e1d7124c09ac86800ebaec7929a3aa32dc61a948f",
+      "target": "components/ffmpeg/arm64"
+    },
+    "tflite": {
+      "version": "2.0.0",
+      "filename": "kaizheng-tflite-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-tflite-arm64-2.0.0.tar.gz",
+      "size": 4902538,
+      "sha256": "df5dd38fe5b97654bab74be0ed50c44cc897f54231119d93bb63544dfcae91bd",
+      "target": "components/tflite"
+    },
+    "asr": {
+      "version": "2.0.0",
+      "filename": "kaizheng-asr-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-asr-arm64-2.0.0.tar.gz",
+      "size": 921189287,
+      "sha256": "be3f9289ef43ae09066619175907c2a29481917d5344d9f610915a4ea8cf8bd2",
+      "target": "models/funasr/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch"
+    },
+    "vad": {
+      "version": "2.0.0",
+      "filename": "kaizheng-vad-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-vad-arm64-2.0.0.tar.gz",
+      "size": 1608895,
+      "sha256": "ab4ee89ba4fcb18565fea5117a12104873738bed3e54245a55559032184b37f6",
+      "target": "models/funasr/speech_fsmn_vad_zh-cn-16k-common-pytorch"
+    },
+    "punctuation": {
+      "version": "2.0.0",
+      "filename": "kaizheng-punctuation-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-punctuation-arm64-2.0.0.tar.gz",
+      "size": 1055790622,
+      "sha256": "1b3f8f7f5c4dfdb43015eaecdbb1716c32a76df845a679ea2c622af5a40011f4",
+      "target": "models/funasr/punc_ct-transformer_cn-en-common-vocab471067-large"
+    },
+    "mdx": {
+      "version": "2.0.0",
+      "filename": "kaizheng-mdx-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-mdx-arm64-2.0.0.tar.gz",
+      "size": 62101020,
+      "sha256": "16c3b10e08b451fc94893bff6870854f6e7530939f2ae90f9d65bff6ed3646f3",
+      "target": "models/mdx"
+    },
+    "yamnet": {
+      "version": "2.0.0",
+      "filename": "kaizheng-yamnet-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-yamnet-arm64-2.0.0.tar.gz",
+      "size": 3242867,
+      "sha256": "e1cd42b763c2d8659a6b119c2a6d5c5bf6b0a2681cb9c1a2c7293e9211d33287",
+      "target": "models/yamnet"
+    }
+  }
+}
