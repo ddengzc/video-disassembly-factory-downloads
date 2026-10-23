@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "categories": [
+    {
+      "id": "DIAN_PU_TUI_GUANG",
+      "name": "店铺推广",
+      "categoryIds": [
+        "DIAN_PU_TUI_GUANG"
+      ]
+    },
+    {
+      "id": "HUO_DONG_TUI_GUANG",
+      "name": "活动推广",
+      "categoryIds": [
+        "HUO_DONG_TUI_GUANG"
+      ]
+    },
+    {
+      "id": "CAI_PIN_SHANG_XIN",
+      "name": "菜品上新",
+      "categoryIds": [
+        "CAI_PIN_SHANG_XIN"
+      ]
+    }
+  ],
+  "voices": [
+    {
+      "id": "longanyang",
+      "name": "阳光大男孩",
+      "voiceId": "longanyang"
+    },
+    {
+      "id": "longanhuan_v3",
+      "name": "欢脱元气女",
+      "voiceId": "longanhuan_v3"
+    },
+    {
+      "id": "longhuhu_v3",
+      "name": "天真烂漫女童",
+      "voiceId": "longhuhu_v3"
+    }
+  ],
+  "real_network_sync": "passed",
+  "signature": "passed",
+  "cache_reload": "passed",
+  "production_data_modified": false,
+  "checked_on": "2026-10-23",
+  "application_version": "3.0.11",
+  "endpoint": "https://raw.githubusercontent.com/ddengzc/video-disassembly-factory-downloads/main/presets/catalog.json"
+}
