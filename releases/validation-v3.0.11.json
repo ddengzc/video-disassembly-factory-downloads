@@ -168,6 +168,15 @@
   "cross_device_acceptance": "pending",
   "remote_preset": "pending ID validation and first publication",
   "published_download": {
-    "status": "pending"
+    "status": "verified",
+    "verified_on": "2026-10-23",
+    "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/v3.0.11/kaizheng-mac-arm64-3.0.11.zip",
+    "bytes": 33124943,
+    "sha256": "9f6759fc8a87015704034c7a9beb7574842d4b502dd07a75ac0731d96b36458c",
+    "matches_local_build": true,
+    "codesign_deep_strict": true,
+    "bundle_version": "3.0.11",
+    "source_commit": "69aec1a0adf0a1e483952e263147ec115530597a",
+    "source_id": "b2b4801a13c2168bb4177094ae185e61eb410c14dffa933965d8d2034cb8baf1"
   }
 }
