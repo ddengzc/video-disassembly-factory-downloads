@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-22",
+  "updated_on": "2026-10-23",
   "deletion_policy": {
     "automatic_deletion": false,
     "user_acceptance_required": true,
@@ -9,6 +9,20 @@
     "specific_deletion_list_approval_required": true
   },
   "applications": [
+    {
+      "version": "3.0.0",
+      "manifest": "releases/v3.0.0.json",
+      "lifecycle": "prerelease",
+      "user_acceptance": {
+        "status": "pending",
+        "confirmed_by": null,
+        "confirmed_at": null
+      },
+      "rollback": "V2.0 application and prior fixed component baseline preserved",
+      "delete_approved": false,
+      "release_url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.0",
+      "validation": "releases/validation-v3.0.0.json"
+    },
     {
       "version": "2.0.0",
       "manifest": "releases/v2.0.0.json",
