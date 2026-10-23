@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "version": "3.0.0",
+  "published_on": "2026-10-23",
+  "source_repository": "ddengzc/video-disassembly-factory",
+  "source_commit": "bb4e4bb00d8526f1229735874f85458d2b650c66",
+  "source_id": "32b2ee0df226de27c80c6f8cb77749efdd9e057066763eaacc3165e223a557ca",
+  "filename": "kaizheng-mac-arm64-3.0.0.zip",
+  "sha256": "6f689ff24772b88bb2476ed4ad04259ac9bcac7ca0d4c6495d4da5d6d2b0503d",
+  "bytes": 33089886,
+  "release_url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.0",
+  "component_baseline": "components-v2.0.0",
+  "components": [
+    {
+      "version": "2.0.0",
+      "filename": "kaizheng-f2-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-f2-arm64-2.0.0.tar.gz",
+      "sha256": "19510a703e3395668e9481e309500a68e25553b6aab29f0dad860f3e393c956d",
+      "size": 17018451,
+      "id": "f2"
+    },
+    {
+      "version": "2.0.0",
+      "filename": "kaizheng-processing-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-processing-arm64-2.0.0.tar.gz",
+      "sha256": "59e05612107e6e682a065bfe1311a763f599e89d5001672250faf9f85d1081c2",
+      "size": 288749269,
+      "id": "processing"
+    },
+    {
+      "version": "2.0.0",
+      "filename": "kaizheng-ffmpeg-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-ffmpeg-arm64-2.0.0.tar.gz",
+      "sha256": "49bc7f71c05dc8145ec0607e1d7124c09ac86800ebaec7929a3aa32dc61a948f",
+      "size": 10186343,
+      "id": "ffmpeg"
+    },
+    {
+      "version": "2.0.0",
+      "filename": "kaizheng-tflite-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-tflite-arm64-2.0.0.tar.gz",
+      "sha256": "df5dd38fe5b97654bab74be0ed50c44cc897f54231119d93bb63544dfcae91bd",
+      "size": 4902538,
+      "id": "tflite"
+    },
+    {
+      "version": "2.0.0",
+      "filename": "kaizheng-asr-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-asr-arm64-2.0.0.tar.gz",
+      "sha256": "be3f9289ef43ae09066619175907c2a29481917d5344d9f610915a4ea8cf8bd2",
+      "size": 921189287,
+      "id": "asr"
+    },
+    {
+      "version": "2.0.0",
+      "filename": "kaizheng-vad-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-vad-arm64-2.0.0.tar.gz",
+      "sha256": "ab4ee89ba4fcb18565fea5117a12104873738bed3e54245a55559032184b37f6",
+      "size": 1608895,
+      "id": "vad"
+    },
+    {
+      "version": "2.0.0",
+      "filename": "kaizheng-mdx-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-mdx-arm64-2.0.0.tar.gz",
+      "sha256": "16c3b10e08b451fc94893bff6870854f6e7530939f2ae90f9d65bff6ed3646f3",
+      "size": 62101020,
+      "id": "mdx"
+    },
+    {
+      "version": "2.0.0",
+      "filename": "kaizheng-yamnet-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-yamnet-arm64-2.0.0.tar.gz",
+      "sha256": "e1cd42b763c2d8659a6b119c2a6d5c5bf6b0a2681cb9c1a2c7293e9211d33287",
+      "size": 3242867,
+      "id": "yamnet"
+    }
+  ],
+  "removed_components": [
+    "punctuation"
+  ],
+  "previous_versions_preserved": true,
+  "user_acceptance_pending": true,
+  "validation": {
+    "local_checks_passed": true,
+    "check_groups": 19,
+    "python_tests": 115,
+    "ui_groups": 16,
+    "media_checks": true,
+    "source_ci": "passed",
+    "clean_workspace_ui": "passed; 0/8 components, no credentials",
+    "signature": "local ad-hoc; not notarized"
+  },
+  "limitations": [
+    "No second physical Mac full-pipeline acceptance",
+    "Real-video model accuracy requires user acceptance",
+    "External backend empty-copy import not integration-tested"
+  ]
+}
