@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "version": "3.0.11",
+  "validated_on": "2026-10-23",
+  "source_commit": "69aec1a0adf0a1e483952e263147ec115530597a",
+  "archive_sha256": "9f6759fc8a87015704034c7a9beb7574842d4b502dd07a75ac0731d96b36458c",
+  "checks": {
+    "schema_version": 1,
+    "offline": true,
+    "checks": [
+      {
+        "name": "python",
+        "ok": true,
+        "seconds": 3.011
+      },
+      {
+        "name": "ui:catalog-sync",
+        "ok": true,
+        "seconds": 0.14
+      },
+      {
+        "name": "ui:close-ui",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:copy-editor",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:detail-ui",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:history-days",
+        "ok": true,
+        "seconds": 0.039
+      },
+      {
+        "name": "ui:history-layout",
+        "ok": true,
+        "seconds": 0.03
+      },
+      {
+        "name": "ui:history-regression",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:history-time",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:link-parameters",
+        "ok": true,
+        "seconds": 0.022
+      },
+      {
+        "name": "ui:material-slots",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:music-controls",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:player",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:poster-close",
+        "ok": true,
+        "seconds": 0.022
+      },
+      {
+        "name": "ui:readiness-ui",
+        "ok": true,
+        "seconds": 0.022
+      },
+      {
+        "name": "ui:review-layout",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:settings-ui",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:speech-review",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:task-guidance",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:video-info",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:video-title",
+        "ok": true,
+        "seconds": 0.028
+      },
+      {
+        "name": "ui:workspace-number",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "media",
+        "ok": true,
+        "seconds": 4.407
+      },
+      {
+        "name": "cut-equivalence",
+        "ok": true,
+        "seconds": 2.351
+      }
+    ],
+    "ok": true,
+    "version": "3.0.11",
+    "checked_on": "2026-10-23",
+    "python_tests": 156,
+    "ui_groups": 21,
+    "synthetic_media": {
+      "original_shots": 108,
+      "source_restoration": "passed",
+      "export_schema": "passed",
+      "material_previews": "passed",
+      "cut_frame_hashes": "passed",
+      "decoded_audio_equivalence": "passed"
+    },
+    "paid_api_calls": 0,
+    "real_credentials_used": false,
+    "component_changes": false,
+    "pending": [
+      "首次远端统一预设发布与端到端同步",
+      "另一台实体 Mac 完整流程",
+      "真实视频模型准确率全面验收",
+      "外部接收系统联调"
+    ],
+    "test_only_hash_tool": "imageio-ffmpeg 0.6.0 macOS arm64; not distributed with the application"
+  },
+  "isolated_startup": {
+    "core_native_bootstrap": true,
+    "isolated_workspace": true,
+    "bridge_view": true,
+    "component_count": 8,
+    "local_presets_available": true,
+    "real_credentials_used": false,
+    "version": "3.0.11",
+    "native_window_acceptance": "pending"
+  },
+  "codesign_deep_strict": true,
+  "user_acceptance": "pending",
+  "cross_device_acceptance": "pending",
+  "remote_preset": "pending ID validation and first publication",
+  "published_download": {
+    "status": "verified",
+    "verified_on": "2026-10-23",
+    "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/v3.0.11/kaizheng-mac-arm64-3.0.11.zip",
+    "bytes": 33124943,
+    "sha256": "9f6759fc8a87015704034c7a9beb7574842d4b502dd07a75ac0731d96b36458c",
+    "matches_local_build": true,
+    "codesign_deep_strict": true,
+    "bundle_version": "3.0.11",
+    "source_commit": "69aec1a0adf0a1e483952e263147ec115530597a",
+    "source_id": "b2b4801a13c2168bb4177094ae185e61eb410c14dffa933965d8d2034cb8baf1"
+  }
+}

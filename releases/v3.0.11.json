@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "version": "3.0.11",
+  "published_on": "2026-10-23",
+  "lifecycle": "prerelease",
+  "source_repository": "ddengzc/video-disassembly-factory",
+  "source_commit": "69aec1a0adf0a1e483952e263147ec115530597a",
+  "source_id": "b2b4801a13c2168bb4177094ae185e61eb410c14dffa933965d8d2034cb8baf1",
+  "source_pr": "https://github.com/ddengzc/video-disassembly-factory/pull/5",
+  "filename": "kaizheng-mac-arm64-3.0.11.zip",
+  "sha256": "9f6759fc8a87015704034c7a9beb7574842d4b502dd07a75ac0731d96b36458c",
+  "bytes": 33124943,
+  "release_url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.11",
+  "component_baseline": "components-v2.0.0",
+  "components": [
+    {
+      "id": "f2",
+      "version": "2.0.0",
+      "filename": "kaizheng-f2-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-f2-arm64-2.0.0.tar.gz",
+      "sha256": "19510a703e3395668e9481e309500a68e25553b6aab29f0dad860f3e393c956d",
+      "size": 17018451,
+      "target": "runtime/architectures/arm64/f2"
+    },
+    {
+      "id": "processing",
+      "version": "2.0.0",
+      "filename": "kaizheng-processing-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-processing-arm64-2.0.0.tar.gz",
+      "sha256": "59e05612107e6e682a065bfe1311a763f599e89d5001672250faf9f85d1081c2",
+      "size": 288749269,
+      "target": "runtime/architectures/arm64/processing"
+    },
+    {
+      "id": "ffmpeg",
+      "version": "2.0.0",
+      "filename": "kaizheng-ffmpeg-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-ffmpeg-arm64-2.0.0.tar.gz",
+      "sha256": "49bc7f71c05dc8145ec0607e1d7124c09ac86800ebaec7929a3aa32dc61a948f",
+      "size": 10186343,
+      "target": "components/ffmpeg/arm64"
+    },
+    {
+      "id": "tflite",
+      "version": "2.0.0",
+      "filename": "kaizheng-tflite-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-tflite-arm64-2.0.0.tar.gz",
+      "sha256": "df5dd38fe5b97654bab74be0ed50c44cc897f54231119d93bb63544dfcae91bd",
+      "size": 4902538,
+      "target": "components/tflite"
+    },
+    {
+      "id": "asr",
+      "version": "2.0.0",
+      "filename": "kaizheng-asr-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-asr-arm64-2.0.0.tar.gz",
+      "sha256": "be3f9289ef43ae09066619175907c2a29481917d5344d9f610915a4ea8cf8bd2",
+      "size": 921189287,
+      "target": "models/funasr/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch"
+    },
+    {
+      "id": "vad",
+      "version": "2.0.0",
+      "filename": "kaizheng-vad-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-vad-arm64-2.0.0.tar.gz",
+      "sha256": "ab4ee89ba4fcb18565fea5117a12104873738bed3e54245a55559032184b37f6",
+      "size": 1608895,
+      "target": "models/funasr/speech_fsmn_vad_zh-cn-16k-common-pytorch"
+    },
+    {
+      "id": "mdx",
+      "version": "2.0.0",
+      "filename": "kaizheng-mdx-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-mdx-arm64-2.0.0.tar.gz",
+      "sha256": "16c3b10e08b451fc94893bff6870854f6e7530939f2ae90f9d65bff6ed3646f3",
+      "size": 62101020,
+      "target": "models/mdx"
+    },
+    {
+      "id": "yamnet",
+      "version": "2.0.0",
+      "filename": "kaizheng-yamnet-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-yamnet-arm64-2.0.0.tar.gz",
+      "sha256": "e1cd42b763c2d8659a6b119c2a6d5c5bf6b0a2681cb9c1a2c7293e9211d33287",
+      "size": 3242867,
+      "target": "models/yamnet"
+    }
+  ],
+  "preset_sync": {
+    "client": "implemented",
+    "remote_catalog": "pending ID validation; local presets remain available",
+    "automatic_checks": "once per startup",
+    "manual_checks": true
+  },
+  "validation": {
+    "schema_version": 1,
+    "offline": true,
+    "checks": [
+      {
+        "name": "python",
+        "ok": true,
+        "seconds": 3.011
+      },
+      {
+        "name": "ui:catalog-sync",
+        "ok": true,
+        "seconds": 0.14
+      },
+      {
+        "name": "ui:close-ui",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:copy-editor",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:detail-ui",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:history-days",
+        "ok": true,
+        "seconds": 0.039
+      },
+      {
+        "name": "ui:history-layout",
+        "ok": true,
+        "seconds": 0.03
+      },
+      {
+        "name": "ui:history-regression",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:history-time",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:link-parameters",
+        "ok": true,
+        "seconds": 0.022
+      },
+      {
+        "name": "ui:material-slots",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:music-controls",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:player",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:poster-close",
+        "ok": true,
+        "seconds": 0.022
+      },
+      {
+        "name": "ui:readiness-ui",
+        "ok": true,
+        "seconds": 0.022
+      },
+      {
+        "name": "ui:review-layout",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:settings-ui",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:speech-review",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:task-guidance",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:video-info",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:video-title",
+        "ok": true,
+        "seconds": 0.028
+      },
+      {
+        "name": "ui:workspace-number",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "media",
+        "ok": true,
+        "seconds": 4.407
+      },
+      {
+        "name": "cut-equivalence",
+        "ok": true,
+        "seconds": 2.351
+      }
+    ],
+    "ok": true,
+    "version": "3.0.11",
+    "checked_on": "2026-10-23",
+    "python_tests": 156,
+    "ui_groups": 21,
+    "synthetic_media": {
+      "original_shots": 108,
+      "source_restoration": "passed",
+      "export_schema": "passed",
+      "material_previews": "passed",
+      "cut_frame_hashes": "passed",
+      "decoded_audio_equivalence": "passed"
+    },
+    "paid_api_calls": 0,
+    "real_credentials_used": false,
+    "component_changes": false,
+    "pending": [
+      "首次远端统一预设发布与端到端同步",
+      "另一台实体 Mac 完整流程",
+      "真实视频模型准确率全面验收",
+      "外部接收系统联调"
+    ],
+    "test_only_hash_tool": "imageio-ffmpeg 0.6.0 macOS arm64; not distributed with the application"
+  },
+  "startup": {
+    "core_native_bootstrap": true,
+    "isolated_workspace": true,
+    "bridge_view": true,
+    "component_count": 8,
+    "local_presets_available": true,
+    "real_credentials_used": false,
+    "version": "3.0.11",
+    "native_window_acceptance": "pending"
+  },
+  "codesign_deep_strict": true,
+  "developer_id_notarized": false,
+  "user_acceptance": "pending",
+  "cross_device_acceptance": "pending",
+  "rollback": "Preserve v3.0.0 and all existing components; data compatibility checks still apply",
+  "credentials_included": false
+}
