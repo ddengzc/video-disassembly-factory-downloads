@@ -10,6 +10,20 @@
   },
   "applications": [
     {
+      "version": "3.0.11",
+      "manifest": "releases/v3.0.11.json",
+      "lifecycle": "prerelease",
+      "user_acceptance": {
+        "status": "pending",
+        "confirmed_by": null,
+        "confirmed_at": null
+      },
+      "rollback": "v3.0.0 and existing fixed components preserved",
+      "delete_approved": false,
+      "release_url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.11",
+      "validation": "releases/validation-v3.0.11.json"
+    },
+    {
       "version": "3.0.0",
       "manifest": "releases/v3.0.0.json",
       "lifecycle": "prerelease",
