@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "current_version": "1.0.0",
+  "current_revision": 1,
+  "versions": [
+    {
+      "version": "1.0.0",
+      "revision": 1,
+      "published_on": "2026-10-23",
+      "source": "catalog.source.json",
+      "signed_catalog": "versions/1.0.0.json",
+      "sha256": "815df223fd5a105f306eb48132a74c873b1b92c0c21a81c3354fc00f4277408e",
+      "category_count": 3,
+      "voice_count": 3,
+      "verification": {
+        "signature": "passed",
+        "exact_user_supplied_values": "passed",
+        "isolated_client_sync_and_cache": "passed",
+        "real_network_client_sync": "pending",
+        "voice_synthesis": "not performed; metadata only"
+      }
+    }
+  ]
+}
