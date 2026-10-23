@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "version": "3.0.0",
+  "validated_on": "2026-10-23",
+  "source_commit": "bb4e4bb00d8526f1229735874f85458d2b650c66",
+  "archive_sha256": "6f689ff24772b88bb2476ed4ad04259ac9bcac7ca0d4c6495d4da5d6d2b0503d",
+  "checks": {
+    "schema_version": 1,
+    "offline": true,
+    "checks": [
+      {
+        "name": "python",
+        "ok": true,
+        "seconds": 2.565
+      },
+      {
+        "name": "ui:close-ui",
+        "ok": true,
+        "seconds": 0.034
+      },
+      {
+        "name": "ui:copy-editor",
+        "ok": true,
+        "seconds": 0.026
+      },
+      {
+        "name": "ui:detail-ui",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:history-layout",
+        "ok": true,
+        "seconds": 0.03
+      },
+      {
+        "name": "ui:history-regression",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:history-time",
+        "ok": true,
+        "seconds": 0.025
+      },
+      {
+        "name": "ui:material-slots",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:music-controls",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:player",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:poster-close",
+        "ok": true,
+        "seconds": 0.025
+      },
+      {
+        "name": "ui:review-layout",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:settings-ui",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:speech-review",
+        "ok": true,
+        "seconds": 0.024
+      },
+      {
+        "name": "ui:video-info",
+        "ok": true,
+        "seconds": 0.023
+      },
+      {
+        "name": "ui:video-title",
+        "ok": true,
+        "seconds": 0.027
+      },
+      {
+        "name": "ui:workspace-number",
+        "ok": true,
+        "seconds": 0.022
+      },
+      {
+        "name": "media",
+        "ok": true,
+        "seconds": 4.337
+      },
+      {
+        "name": "cut-equivalence",
+        "ok": true,
+        "seconds": 1.603
+      }
+    ],
+    "ok": true
+  },
+  "clean_workspace": {
+    "startup": true,
+    "component_count": 8,
+    "credentials_included": false,
+    "offline_import_removed": true,
+    "cookie_flat_layout": true
+  },
+  "user_acceptance": "pending",
+  "cross_device_acceptance": "pending"
+}
