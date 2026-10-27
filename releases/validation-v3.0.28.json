@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "version": "3.0.28",
+  "source_commit": "2310da15f3fab4a86f452d0bd9ad4e5c8a5ca611",
+  "local_package": {
+    "sha256": "6a5b781ac3055a967b933f87b6693bbac1525bc165503a166427be31b673e61f",
+    "bytes": 33203566,
+    "bootstrap": true,
+    "signature": true,
+    "source_match": true,
+    "ocr_smoke": true
+  },
+  "public_download": {
+    "status": "pending"
+  },
+  "components_unchanged": true,
+  "presets_unchanged": true,
+  "production_data_modified": false
+}
