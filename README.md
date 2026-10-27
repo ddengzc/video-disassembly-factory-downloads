@@ -1,12 +1,12 @@
-# 开整 · 应用与固定组件下载
+# 视频模版工作台 · 应用与固定组件下载
 
-Apple Silicon / macOS14.2+ 的视频模板工作台。当前版本 **3.0.28（预发布）**。
+Apple Silicon / macOS14.2+ 的视频模版工作台。当前版本 **3.0.28（预发布）**。
 
 **[下载应用ZIP](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/v3.0.28/kaizheng-mac-arm64-3.0.28.zip)** · [发布说明与全部附件](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.28) · [校验摘要](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/v3.0.28/SHA256SUMS.txt)
 
 ## 安装与升级
 
-下载名称为`kaizheng-mac-arm64-3.0.28.zip`的附件，解压后打开“开整.app”。GitHub自动生成的Source code ZIP不是安装包。升级前退出旧应用；已有任务、登录凭据、固定组件和正式成果保留，同一时间运行一个版本。
+下载名称为`kaizheng-mac-arm64-3.0.28.zip`的附件，解压后打开包内的应用（实际 .app 文件名保持原样）。GitHub自动生成的Source code ZIP不是安装包。升级前退出旧应用；已有任务、登录凭据、固定组件和正式成果保留，同一时间运行一个版本。
 
 首次按设置页安装8项固定组件、配置抖音登录和模型服务。组件约1.22GB，不重新安装旧标点模型。当前为ad-hoc签名，未做Developer ID公证，按macOS正常允许流程打开，不需要关闭系统安全保护。
 

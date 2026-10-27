@@ -11,10 +11,10 @@
 | TFLite C 运行库 | TensorFlow Apache-2.0；DeNA 部分 MIT。 |
 | MDX Inst HQ 3 | Ultimate Vocal Remover (UVR) 模型；依照上游 README 的 MIT 模型许可声明，署名 UVR、Anjok07 及开发者。 |
 
-模型和第三方工具不属于镜序原创内容。各包中的原始版权声明和许可文本保留；源代码或构建材料在同一 Release 的 source 附件中提供。应用通过独立进程调用 FFmpeg，不将其改名隐藏。
+模型和第三方工具不属于视频模版工作台原创内容。各包中的原始版权声明和许可文本保留；源代码或构建材料在同一 Release 的 source 附件中提供。应用通过独立进程调用 FFmpeg，不将其改名隐藏。
 
 FFmpeg 许可来源：https://ffmpeg.org/legal.html
 UVR 模型许可声明：https://github.com/Anjok07/ultimatevocalremovergui#license
 F2 来源：https://github.com/Johnserf-Seed/f2/tree/f6be8c0ffba9a127075bbeafe4838716650b6325
 
-本目录 build/ 中的 FFmpeg 构建脚本按 GPL-2.0-or-later 提供，用于重建相应开源组件；此声明不对镜序应用整体授予 GPL 许可。
+本目录 build/ 中的 FFmpeg 构建脚本按 GPL-2.0-or-later 提供，用于重建相应开源组件；此声明不对视频模版工作台应用整体授予 GPL 许可。
