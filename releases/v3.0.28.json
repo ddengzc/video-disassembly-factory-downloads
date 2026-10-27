@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "version": "3.0.28",
+  "published_on": "2026-10-27",
+  "lifecycle": "prerelease",
+  "source_repository": "ddengzc/video-disassembly-factory",
+  "source_commit": "2310da15f3fab4a86f452d0bd9ad4e5c8a5ca611",
+  "source_id": "ac62c362195bb6aaa63679db11cbf14594ffaaabdfb387efa509d20d99f82542",
+  "source_pr": "https://github.com/ddengzc/video-disassembly-factory/pull/7",
+  "source_tag": "v3.0.28",
+  "filename": "kaizheng-mac-arm64-3.0.28.zip",
+  "sha256": "6a5b781ac3055a967b933f87b6693bbac1525bc165503a166427be31b673e61f",
+  "bytes": 33203566,
+  "release_url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.28",
+  "component_baseline": "components-v2.0.0",
+  "components": [
+    {
+      "id": "f2",
+      "version": "2.0.0",
+      "filename": "kaizheng-f2-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-f2-arm64-2.0.0.tar.gz",
+      "sha256": "19510a703e3395668e9481e309500a68e25553b6aab29f0dad860f3e393c956d",
+      "size": 17018451,
+      "target": "runtime/architectures/arm64/f2"
+    },
+    {
+      "id": "processing",
+      "version": "2.0.0",
+      "filename": "kaizheng-processing-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-processing-arm64-2.0.0.tar.gz",
+      "sha256": "59e05612107e6e682a065bfe1311a763f599e89d5001672250faf9f85d1081c2",
+      "size": 288749269,
+      "target": "runtime/architectures/arm64/processing"
+    },
+    {
+      "id": "ffmpeg",
+      "version": "2.0.0",
+      "filename": "kaizheng-ffmpeg-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-ffmpeg-arm64-2.0.0.tar.gz",
+      "sha256": "49bc7f71c05dc8145ec0607e1d7124c09ac86800ebaec7929a3aa32dc61a948f",
+      "size": 10186343,
+      "target": "components/ffmpeg/arm64"
+    },
+    {
+      "id": "tflite",
+      "version": "2.0.0",
+      "filename": "kaizheng-tflite-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-tflite-arm64-2.0.0.tar.gz",
+      "sha256": "df5dd38fe5b97654bab74be0ed50c44cc897f54231119d93bb63544dfcae91bd",
+      "size": 4902538,
+      "target": "components/tflite"
+    },
+    {
+      "id": "asr",
+      "version": "2.0.0",
+      "filename": "kaizheng-asr-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-asr-arm64-2.0.0.tar.gz",
+      "sha256": "be3f9289ef43ae09066619175907c2a29481917d5344d9f610915a4ea8cf8bd2",
+      "size": 921189287,
+      "target": "models/funasr/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch"
+    },
+    {
+      "id": "vad",
+      "version": "2.0.0",
+      "filename": "kaizheng-vad-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-vad-arm64-2.0.0.tar.gz",
+      "sha256": "ab4ee89ba4fcb18565fea5117a12104873738bed3e54245a55559032184b37f6",
+      "size": 1608895,
+      "target": "models/funasr/speech_fsmn_vad_zh-cn-16k-common-pytorch"
+    },
+    {
+      "id": "mdx",
+      "version": "2.0.0",
+      "filename": "kaizheng-mdx-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-mdx-arm64-2.0.0.tar.gz",
+      "sha256": "16c3b10e08b451fc94893bff6870854f6e7530939f2ae90f9d65bff6ed3646f3",
+      "size": 62101020,
+      "target": "models/mdx"
+    },
+    {
+      "id": "yamnet",
+      "version": "2.0.0",
+      "filename": "kaizheng-yamnet-arm64-2.0.0.tar.gz",
+      "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/components-v2.0.0/kaizheng-yamnet-arm64-2.0.0.tar.gz",
+      "sha256": "e1cd42b763c2d8659a6b119c2a6d5c5bf6b0a2681cb9c1a2c7293e9211d33287",
+      "size": 3242867,
+      "target": "models/yamnet"
+    }
+  ],
+  "preset_version": "1.0.0",
+  "preset_revision": 1,
+  "platform": {
+    "architecture": "arm64",
+    "minimum_macos": "14.2",
+    "python": "3.12.14"
+  },
+  "signing": {
+    "type": "ad-hoc",
+    "developer_id_notarized": false
+  },
+  "validation": {
+    "offline_checks_passed": true,
+    "python_tests": 331,
+    "ui_groups": 27,
+    "media_groups": 2,
+    "isolated_webkit_edit_passed": true,
+    "package_bootstrap_passed": true,
+    "source_match": true,
+    "signature_passed": true,
+    "native_ocr_smoke_passed": true,
+    "github_ci": "passed on source PR #7",
+    "paid_api_requests_this_release": 0,
+    "production_data_modified_by_release": false,
+    "public_download_verification": "see releases/validation-v3.0.28.json"
+  },
+  "user_acceptance": {
+    "local_build": "user reported overall normal on 2026-10-27",
+    "new_public_package": "pending"
+  },
+  "pending": [
+    "second physical Mac end-to-end",
+    "broad model accuracy",
+    "external-system integration",
+    "Developer ID notarization"
+  ],
+  "rollback": "v3.0.11 and all referenced fixed components preserved",
+  "changes": [
+    "independent visual, audio and subtitle evidence with cached recovery",
+    "local copy warnings remain visible without blocking export",
+    "generation pause, resume and cancel",
+    "material display names synchronized independently of categories",
+    "completed copy edits synchronize result metadata with backup and recovery",
+    "current maintenance documentation and repository hygiene; historical notes archived"
+  ]
+}

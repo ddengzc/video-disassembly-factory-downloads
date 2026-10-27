@@ -1,28 +1,41 @@
-# 视频拆解工厂 · 开整
+# 开整 · 应用与固定组件下载
 
-Apple Silicon / macOS 14.2+ 的本地视频模板工作台。
+Apple Silicon / macOS14.2+ 的视频模板工作台。当前版本 **3.0.28（预发布）**。
 
-## 3.0.11 下载验收
+**[下载应用ZIP](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/v3.0.28/kaizheng-mac-arm64-3.0.28.zip)** · [发布说明与全部附件](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.28) · [校验摘要](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/v3.0.28/SHA256SUMS.txt)
 
-- [下载开整 3.0.11](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.11)
-- [固定运行组件与模型](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/components-v2.0.0)
+## 安装与升级
 
-3.0.11 按预发布提供。解压后打开“开整.app”。已有用户复用共享工作目录和已安装组件，升级前退出旧应用；不删除任务或成果目录。首次使用安装 8 项固定组件约 1.22 GB，不再下载本地标点模型。
+下载名称为`kaizheng-mac-arm64-3.0.28.zip`的附件，解压后打开“开整.app”。GitHub自动生成的Source code ZIP不是安装包。升级前退出旧应用；已有任务、登录凭据、固定组件和正式成果保留，同一时间运行一个版本。
 
-本次累计包含全局 UI、日期/批次/任务历史、素材确认及导出、文案有效性/完整性保护、组件状态、凭据授权和配置跳转，并修复带 modal_id 的抖音链接截断。
+首次按设置页安装8项固定组件、配置抖音登录和模型服务。组件约1.22GB，不重新安装旧标点模型。当前为ad-hoc签名，未做Developer ID公证，按macOS正常允许流程打开，不需要关闭系统安全保护。
 
-统一分类/音色预设 **1.0.0** 已发布：模板分类和音色各三条，详见 [统一预设库](presets/README.md)。3.0.11 启动时检查一次，也可在对应页面点击“检查更新”；通过签名验证后更新本地缓存，失败继续使用原配置。已开始任务保留原配置，变化的旧选项须重新选择。本次不需要重新下载应用。
+## 3.0.28更新
 
-源码及两份维护交接文档保存在私有维护仓库。公开包不含任务、视频、Cookie、API 密钥或配置签名私钥；不向用户要求 GitHub Token。音色只是模板导出字段，不在本机执行 TTS。
+- 音频、画面、字幕独立取证，成功工作复用，每个技术卡点最多自动补跑一次。
+- 文案补标点与语义分段；局部疑问保留警告但不单独阻断，无文案、严重异常和处理失败仍要求处理。
+- 支持生成批次暂停、继续、取消，保留成功结果。
+- 素材显示名与分类分开编辑，可同步对应文件夹。
+- 已完成文案可直接编辑，点击“保存文案并同步”更新原成果元数据，有备份和冲突/中断保护，不重做视频。
 
-验证：156 项 Python、21 组 UI、108 分镜导出/原视频还原、切片画面和音轨等价检查、GitHub CI 与隔离工作目录核心启动通过。另一台 Mac、当前包原生窗口完整业务、真实视频全面准确率、远端预设和外部系统联调仍待验收。ad-hoc 签名，未做 Developer ID 公证。
+音色仅用于模板voiceId字段，本机不执行TTS。画面理解和文案整理使用用户配置的模型API，可能产生供应商费用。
 
-源码提交：69aec1a0adf0a1e483952e263147ec115530597a。
+## 下载与维护入口
 
-应用 ZIP SHA-256：`9f6759fc8a87015704034c7a9beb7574842d4b502dd07a75ac0731d96b36458c`。
+| 内容 | 入口 |
+| --- | --- |
+| 当前应用、说明、摘要和来源 | [3.0.28 Release](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/v3.0.28) |
+| 固定组件与必要对应源码 | [components-v2.0.0](https://github.com/ddengzc/video-disassembly-factory-downloads/releases/tag/components-v2.0.0) |
+| 三条分类和三条音色 | [统一预设说明](presets/README.md) |
+| 全部仓库、下载与常见问题 | [下载总览](DOWNLOADS.md) |
+| 版本与保留状态 | [版本历史](releases/history.json) / [更新记录](CHANGELOG.md) |
+| 本版验证 | [发布来源](releases/v3.0.28.json) / [回下载验证](releases/validation-v3.0.28.json) |
+| 发布和保留规则 | [RELEASE_POLICY](RELEASE_POLICY.md) |
+| 第三方许可 | [THIRD_PARTY](THIRD_PARTY.md) |
+| 授权开发维护人员 | [私有源码与维护文档](https://github.com/ddengzc/video-disassembly-factory) |
 
-## 版本与组件管理
+分类/音色保持1.0.0/revision1，启动检查一次，支持手动更新，无定时重复请求。组件和预设独立版本，未变模型不重复上传；旧应用、标签、许可和所有仍被引用附件保留。
 
-应用、组件和预设独立管理。8 项组件内容未变，继续复用 components-v2.0.0 的固定 URL、SHA-256 和文件清单，不重复上传模型。旧应用、标签、组件及历史草稿全部保留，旧版标点附件仍供回退引用，不在本次清理。
+本版331项Python、27组UI、2组媒体回归及隔离WebKit和包检查通过，源码PR #7的GitHub CI通过。用户反馈本地整体正常。新公开包、另一台Mac、全部视频准确率和外部联调分别验收，不能把自动测试当作全面准确率承诺。公开包不包含用户任务、私有视频、Cookie、API密钥或配置签名私钥。
 
-见 [发布与保留规则](RELEASE_POLICY.md)、[版本历史](releases/history.json)、[3.0.11 验证记录](releases/validation-v3.0.11.json) 和 [组件基线](releases/components-baseline-2.0.0.json)。
+问题反馈请提供版本、步骤和脱敏截图，不上传完整用户目录、凭据或私有视频，见[安全反馈](SECURITY.md)。
