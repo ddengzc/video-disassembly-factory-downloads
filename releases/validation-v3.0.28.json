@@ -11,9 +11,25 @@
     "ocr_smoke": true
   },
   "public_download": {
-    "status": "pending"
+    "status": "passed",
+    "verified_on": "2026-10-27",
+    "url": "https://github.com/ddengzc/video-disassembly-factory-downloads/releases/download/v3.0.28/kaizheng-mac-arm64-3.0.28.zip",
+    "sha256": "6a5b781ac3055a967b933f87b6693bbac1525bc165503a166427be31b673e61f",
+    "bytes": 33203566,
+    "zip_integrity": true,
+    "all_five_github_asset_digests_match": true,
+    "source_commit": "2310da15f3fab4a86f452d0bd9ad4e5c8a5ca611",
+    "source_id": "ac62c362195bb6aaa63679db11cbf14594ffaaabdfb387efa509d20d99f82542",
+    "version": "3.0.28",
+    "signature": true,
+    "isolated_bootstrap": true,
+    "source_match": true,
+    "native_ocr_smoke": true,
+    "native_gui_full_business_test": "not_run_in_roundtrip",
+    "api_requests": 0
   },
   "components_unchanged": true,
   "presets_unchanged": true,
-  "production_data_modified": false
+  "production_data_modified": false,
+  "user_acceptance_public_package": "pending"
 }
